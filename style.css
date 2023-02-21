@@ -1,4 +1,4 @@
-/*  import google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -26,7 +26,7 @@ html{
     background: #555;
 }
 
-/* all similar content styling codes */
+
 section{
     padding: 100px 0;
 }
@@ -77,7 +77,7 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-/* navbar styling */
+
 .navbar{
     position: fixed;
     width: 100%;
@@ -126,7 +126,7 @@ section .title::after{
     color: #fff;
 }
 
-/* menu btn styling */
+
 .menu-btn{
     color: #fff;
     font-size: 23px;
@@ -162,7 +162,7 @@ section .title::after{
 }
 
 
-/* home section styling */
+
 .home{
     display: flex;
     background: url("banner.jpg") no-repeat center;
@@ -212,7 +212,7 @@ section .title::after{
     color: crimson;
     background: none;
 }
-/* about section styling */
+
 .about .title::after{
     content: "";
 }
@@ -256,7 +256,7 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
+
 .services, .teams{
     color:#fff;
     background: #111;
@@ -302,7 +302,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
+
 
 .skills .title::after{
     content: "what i know";
@@ -377,7 +377,7 @@ section .title::after{
     width: 70%;
 }
 
-/* teams section styling */
+
 .teams .title::after{
     content: "Follow me";
 }
@@ -440,7 +440,7 @@ section .title::after{
     background: crimson!important;
 }
 
-/* contact section styling */
+
 .contact .title::after{
     content: "";
 }
@@ -551,7 +551,7 @@ footer span a:hover{
 }
 
 
-/* responsive media query start */
+
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
